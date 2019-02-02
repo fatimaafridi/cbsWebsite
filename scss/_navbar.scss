@@ -12,6 +12,7 @@
     @include heading-font;
   }
   .navbar-brand {
+    padding-top: 20px;
     color: $primary;
     @include script-font;
     &.active,
@@ -21,6 +22,8 @@
       color: darken($primary, 10%);
     }
   }
+
+.navbar {min-height:20px !important;}
   .navbar-nav {
     .nav-item {
       .nav-link {
@@ -41,8 +44,8 @@
 }
 @media(min-width:992px) {
   #mainNav {
-    padding-top: 10px;
-    padding-bottom: 25px;
+    padding-top: 0px;
+    padding-bottom: 0px;
     -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
     -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
     transition: padding-top 0.3s, padding-bottom 0.3s;
