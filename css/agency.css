@@ -14,15 +14,15 @@ p {
 }
 
 a {
-  color: #666161;
+  color: #1E1A1A;
 }
 
 a:hover {
-  color: #4c4848;
+  color: #030202;
 }
 
 .text-primary {
-  color: #666161 !important;
+  color: #1E1A1A !important;
 }
 
 h1,
@@ -71,13 +71,13 @@ section h3.section-subheading {
 }
 
 .btn-primary {
-  background-color: #666161;
-  border-color: #666161;
+  background-color: #1E1A1A;
+  border-color: #1E1A1A;
 }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
-  background-color: #524e4e !important;
-  border-color: #524e4e !important;
+  background-color: #0a0808 !important;
+  border-color: #0a0808 !important;
   color: white;
 }
 
@@ -87,12 +87,12 @@ section h3.section-subheading {
 }
 
 ::-moz-selection {
-  background: #666161;
+  background: #1E1A1A;
   text-shadow: none;
 }
 
 ::selection {
-  background: #666161;
+  background: #1E1A1A;
   text-shadow: none;
 }
 
@@ -109,7 +109,7 @@ img::-moz-selection {
 }
 
 #mainNav {
-  background-color: white;
+  background-color: #212529;
 }
 
 #mainNav .navbar-toggler {
@@ -119,18 +119,18 @@ img::-moz-selection {
   text-transform: uppercase;
   color: white;
   border: 0;
-  background-color: white;
+  background-color: #1E1A1A;
   font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
 #mainNav .navbar-brand {
   padding-top: 20px;
-  color: #666161;
+  color: #1E1A1A;
   font-family: 'Kaushan Script', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
 #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-  color: #4c4848;
+  color: white;
 }
 
 #mainNav .navbar {
@@ -147,7 +147,7 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #666161;
+  color: #868e96;
 }
 
 @media (min-width: 992px) {
@@ -256,7 +256,7 @@ header.masthead .intro-text .intro-heading {
   -webkit-transition: all ease 0.5s;
   transition: all ease 0.5s;
   opacity: 0;
-  background: rgba(102, 97, 97, 0.9);
+  background: rgba(30, 26, 26, 0.9);
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
@@ -407,7 +407,7 @@ header.masthead .intro-text .intro-heading {
   width: 2px;
   margin-left: -1.5px;
   content: '';
-  background-color: #e9ecef;
+  background-color: #1B1C1D;
 }
 
 .timeline > li {
@@ -447,60 +447,41 @@ header.masthead .intro-text .intro-heading {
   border-left-width: 0;
 }
 
-.timeline > li .timeline-image {
-  position: absolute;
-  z-index: 50;
-  left: 0;
-  width: 200px;
-  height: 50px;
-  margin-left: 0;
-  text-align: center;
-  color: white;
-  border: 3px solid #e9ecef;
-  background-color: #666161;
-}
-
-.timeline > li .timeline-image h4 {
-  font-size: 10px;
-  line-height: 14px;
-  margin-top: 12px;
-}
-
-.timeline > li.timeline-inverted > .timeline-panel {
+.timeline.timeline-inverted > .timeline-panel {
   float: right;
   padding: 0 20px 0 100px;
   text-align: left;
 }
 
-.timeline > li.timeline-inverted > .timeline-panel:before {
+.timeline.timeline-inverted > .timeline-panel:before {
   right: auto;
   left: -15px;
   border-right-width: 15px;
   border-left-width: 0;
 }
 
-.timeline > li.timeline-inverted > .timeline-panel:after {
+.timeline.timeline-inverted > .timeline-panel:after {
   right: auto;
   left: -14px;
   border-right-width: 14px;
   border-left-width: 0;
 }
 
-.timeline > li:last-child {
+.timeline:last-child {
   margin-bottom: 0;
 }
 
-.timeline .timeline-heading h4 {
+.timeline-heading h4 {
   margin-top: 0;
   color: inherit;
 }
 
-.timeline .timeline-heading h4.subheading {
+.timeline-heading h4.subheading {
   text-transform: none;
 }
 
-.timeline .timeline-body > ul,
-.timeline .timeline-body > p {
+.timeline-body > ul,
+.timeline-body > p {
   margin-bottom: 0;
 }
 
@@ -519,7 +500,7 @@ header.masthead .intro-text .intro-heading {
     text-align: right;
   }
   .timeline > li .timeline-image {
-    left: 50%;
+    left: 60%;
     width: 100px;
     height: 100px;
     margin-left: -50px;
@@ -628,7 +609,7 @@ section#contact .form-group textarea.form-control {
 }
 
 section#contact .form-control:focus {
-  border-color: #666161;
+  border-color: #1E1A1A;
   -webkit-box-shadow: none;
   box-shadow: none;
 }
@@ -696,5 +677,5 @@ ul.social-buttons li a {
 }
 
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
-  background-color: #666161;
+  background-color: #1E1A1A;
 }
