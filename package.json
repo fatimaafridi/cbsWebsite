@@ -27,9 +27,12 @@
     },
     "dependencies": {
         "@fortawesome/fontawesome-free": "5.6.3",
+        "body-parser": "^1.18.3",
         "bootstrap": "4.2.1",
+        "express": "^4.16.4",
         "jquery": "3.3.1",
-        "jquery.easing": "^1.4.1"
+        "jquery.easing": "^1.4.1",
+        "pug": "^2.0.3"
     },
     "devDependencies": {
         "browser-sync": "2.26.3",
